@@ -1,5 +1,5 @@
 import gleeunit/should
-import internal/crypto/ed25519
+import internal/ed25519
 
 const valid_message = "ed25519_test"
 
