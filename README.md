@@ -6,6 +6,7 @@
 ```sh
 gleam add discord_framework@1
 ```
+
 ```gleam
 import discord_framework
 
@@ -22,10 +23,3 @@ Further documentation can be found at <https://hexdocs.pm/discord_framework>.
 gleam run   # Run the project
 gleam test  # Run the tests
 ```
-
-## Improvements to do
-
-- [ ] Restructure interaction handler results (Reponse and Error types)
-- [ ] Restructure chat input commands
-- [ ] Use resolved to populate the command option with the partial data type
-- [ ] Use resolved to populate the values of message components with the partial data type
